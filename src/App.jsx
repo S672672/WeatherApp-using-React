@@ -13,7 +13,7 @@ export default function App() {
     <div className='weather'>10</div>
     </div>
     <div className='weatherproperty'>
-    <img src='' alt="cloud"></img>
+    <img className='image' src='https://cdn-icons-png.flaticon.com/512/252/252035.png' alt="cloud"></img>
     <div className='allabout'>
     <div>feels like</div>
     <div>humidity</div>
