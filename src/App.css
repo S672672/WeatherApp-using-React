@@ -7,14 +7,31 @@
   flex-direction: column;
 }
 .input{
-  margin: 50px;
   height: 50px;
   width: 44%;
   border-radius: 50px;
   border: 5px solid grey;
   text-align: center;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 2.5rem;
+  margin: 20px;
+}
+.inputnsearch{
+  display: flex;
+  align-items: center;
+  min-width:44%;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.button{
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 40px;
+  border: 5px solid grey;
+  font-weight: bold;
+  font-size: 20px;
 }
 .weathershow{
   height: 60%;
@@ -26,7 +43,8 @@
   flex-wrap: wrap;
 }
 .place{
-  font-size: 50px;
+  font-size:1.8rem;
+  font-weight: bold;
   font-family: sans-serif;
 }
 .placentemp{
@@ -55,9 +73,13 @@
 }
 .allabout{
   font-weight: bold;
-  font-size: 25px;
+  font-size: 1.2rem;
+
 }
 .image{
   height: 100px;
   width: 100px;
+}
+.wrapscreen{
+  width: 44%;
 }
